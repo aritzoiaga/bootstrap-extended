@@ -18,6 +18,9 @@ less/
 ```
 
 
+##Variables##
+
+
 **bootstrap-variables.less**
 
 
@@ -34,6 +37,9 @@ less/
 ```
 
 
+##Mixins##
+
+
 **mixins.less**
 
 ```
@@ -42,6 +48,9 @@ less/
 
 // Own mixins ...
 ```
+
+
+##Less files##
 
 
 **bootstrap.less**
