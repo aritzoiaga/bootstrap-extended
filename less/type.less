@@ -1,0 +1,149 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Antialiasing
+// -------------------------
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+}
+
+h1, .h1 {
+  margin-bottom: @h1-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h1-xs-max;
+  }
+}
+
+h2, .h2 {
+  margin-bottom: @h2-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h2-xs-max;
+  }
+}
+
+h3, .h3 {
+  margin-bottom: @h3-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h3-xs-max;
+  }
+}
+
+h4, .h4 {
+  margin-bottom: @h4-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h4-xs-max;
+  }
+}
+
+h5, .h5 {
+  margin-bottom: @h5-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h5-xs-max;
+  }
+}
+
+h6, .h6 {
+  margin-bottom: @h6-margin-bottom;
+  @media (max-width: @screen-xs-max) {
+  	font-size: @font-size-h6-xs-max;
+  }
+}
+
+
+// Headers
+// -------------------------
+
+header p {
+	font-size: @font-size-large;
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-large-xs-max;
+	}
+}
+
+main{
+	header + * {
+    margin-top: 35px !important;
+  }
+}
+
+p + h2,
+p + h3 {
+	padding-top: 15px;
+}
+
+
+// Body text
+// -------------------------
+
+p {
+	margin-bottom: @line-height-computed;
+}
+
+* > p:last-child {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+
+
+// Emphasis & misc
+// -------------------------
+
+.text-small {
+	font-size: @font-size-small;
+	line-height: 1.6;
+}
+
+.text-normal {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.text-large {
+	font-size: @font-size-large;
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-large-xs-max;
+	}
+}
+
+h2 + .text-small {
+	margin-top: -5px;
+}
+
+header h2 + .text-small {
+	margin-top: 0;
+}
+
+
+// Lists
+// --------------------------------------------------
+
+
+// Unordered and Ordered lists
+
+ol {
+	position: relative;
+	padding-left: 22px;
+}
+ul {
+  list-style: none;
+	position: relative;
+	padding-left: 22px;
+}
+ol li {
+	margin-bottom: 5px;
+}
