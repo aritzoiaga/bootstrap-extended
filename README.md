@@ -3,18 +3,18 @@ bootstrap-extended
 
 ```
 bower_components/
-	|-- bootstrap/
-	|-- bootstrap-extended/
+	__bootstrap/
+	__bootstrap-extended/
 less/
-	|-- variables/
-	|   |-- bootstrap-variables.less
-	|		|-- bootstrap-extended-variables.less
-	|		|-- variables.less
-	|-- mixins/
-	|-- |-- mixins.less
-	|-- bootstrap.less
-	|-- bootstrap-extended.less
-	|-- main.less
+	__variables/
+		bootstrap-variables.less
+		bootstrap-extended-variables.less
+		variables.less
+	__mixins/
+		mixins.less
+	bootstrap.less
+	bootstrap-extended.less
+	main.less
 ```
 
 
